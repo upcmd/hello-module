@@ -25,3 +25,13 @@ tasks:
           -
             name: print
             cmd: " .... world from Say_world"
+
+  -
+    name: Say_hello
+    task:
+      -
+        func: cmd
+        do:
+          -
+            name: print
+            cmd: " .... hello from Say_hello"
