@@ -37,3 +37,7 @@ tasks:
             name: print
             cmd: " .... cross call 1"
 
+      -
+        func: call
+        do: crosstalk2.Cross_talk
+
