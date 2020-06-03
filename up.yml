@@ -39,5 +39,5 @@ tasks:
 
       -
         func: call
-        do: crosstalk2.Cross_talk
+        do: crosstalk2.Cross_call2
 
