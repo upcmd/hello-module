@@ -25,3 +25,15 @@ tasks:
           -
             name: print
             cmd: " .... world from Say_world"
+
+
+  -
+    name: Cross_call1
+    task:
+      -
+        func: cmd
+        do:
+          -
+            name: print
+            cmd: " .... cross call 1"
+
